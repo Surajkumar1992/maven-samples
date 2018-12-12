@@ -6,7 +6,7 @@ pipeline{
    }
    
    stages{
-      stage("SCM CHECKOUt){
+      stage("SCM CHECKOUT"){
             steps{
                def branch;
                branch=params.branch;
